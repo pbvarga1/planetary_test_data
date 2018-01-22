@@ -70,10 +70,13 @@ Ready to contribute? Here's how to set up `planetary_test_data` for local develo
     $ cd planetary_test_data/
     $ pip install -r requirements.txt
 
-4. Create a branch for local development. Please branch from ``development`` branch::
+4. Create a feature branch for local development. If your feature addresses
+   an issue, include the issue number in the branch name. Remember to update
+   your master branch first!::
 
-    $ git checkout development
-    $ git checkout -b name-of-your-bugfix-or-feature
+    $ git checkout master
+    $ git pull origin master
+    $ git checkout -b issue42_short_name_of_issue
 
     Now you can make your changes locally.
 
